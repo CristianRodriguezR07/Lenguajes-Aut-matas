@@ -6,6 +6,7 @@ from typing import Dict, List, Tuple
 import matplotlib.pyplot as plt
 import networkx as nx
 
+
 def draw_automaton() -> None:
     """Build and draw the directed graph for exercise 5."""
     G = nx.DiGraph()
